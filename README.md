@@ -2,14 +2,14 @@
 By Tyler Morgan.
 
 ## Overview
-I've had a hard time finding a simple way to update copyright footers for my webpages. All of the solutions either collect data from the user and/or doesn't provide the copyright types I need. So I made my own that suits my needs. Maybe someone has created something similar, but it was not easy enough for me to find. So I'll contribute more code I guess!
+I've had a hard time finding a simple way to update copyright footers for my web pages. All of the solutions either collect data from the user and/or don't provide the copyright types I need. So I made my own that suits my needs. Maybe someone has created something similar, but it was not easy enough for me to find. So I'll contribute more code I guess!
 ## Goals
 * Create a lightweight JavaScript file.
 * Create both static and dynamic years and year ranges.
 * Reduce reliance on `id` attributes.
-* Reduce data collection when retrieving the year for users.
+* Reduce data collection when retrieving the current year for users.
 * Minimal updating of the file (one string change per year).
-* Simple syntax setting up copyright years.
+* Simple syntax when setting up copyright years.
 
 ## Year Types
 
@@ -21,7 +21,7 @@ Add `data-copyright-currentyear` to any HTML tag. Preferably an empty `span`. Yo
 
 
 ### Static Year
-If you just want to add the copyright year of a work, no updating needed. This would work. Of course, you can just manually add the year in the text content, up to you, whatever floats your boat.
+If you just want to add the copyright year of a work, no current year needed. This will suit you. Of course, you can just manually add the year in the text content, up to you, whatever floats your boat.
 #### Code
 Add `data-copyright-year="YYYY"` to any HTML tag. Preferably an empty `span`. Change out "YYYY" to the year you want, obviously. Example: `<span data-copyright-year="1973"></span>` will spit out "1973".
 
@@ -33,11 +33,13 @@ Add both `data-copyright-year="YYYY"` and `data-copyright-endyear="currentyear"`
 
 
 ### Static Year Range
-You just want an unchanging year range? Cool, I got that too.
+Do you just want an unchanging year range? Cool, I got that too.
 #### Code
 Add both `data-copyright-year="YYYY"` and `data-copyright-endyear="YYYY"` to any HTML tag. Preferably an empty `span`. Change out "YYYY" to the year you want. Example: `<span data-copyright-year="1996" data-copyright-endyear="2013"></span>` will spit out "1996-2013".
 
 ## Little Tip
 The `data-copyright-year` and `data-copyright-endyear` are string values if you need to add lettering to the years. If for whatever reason you need BC or AD, you can totally do so. Or you can switch the years to two digits. To each their own!
 ## Maintenance
-Just change the currentYear const on line 1 in the file to whatever year it currently is. This is done once a year, then all of your websites are updated!
+Just change the currentYear const on line 1 in the file to whatever year it currently is. This is done once a year, and then all of your websites are updated!
+## Issues or Suggestions
+Feel free to open an issue!
