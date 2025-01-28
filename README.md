@@ -29,7 +29,7 @@ Add `data-copyright-year="YYYY"` to any HTML tag. Preferably an empty `span`. Ch
 ### Dynamic Year Range
 If you're looking to add a year range that updates the ending number to the current year (eg., _&copy; 2020-2025 Tyler Morgan. All rights reserved._), this is the one for you.
 #### Code
-Add both `data-copyright-year="YYYY"` and `data-copyright-endyear="currentyear"` to any HTML tag. Preferably an empty `span`. Change out "YYYY" to the year you want, but "currentyear" should be left as is. Example: `<span data-copyright-year="2004" data-copyright-endyear="currentyear"></span>` will spit out "2004-2025".
+Add both `data-copyright-year="YYYY"` and `data-copyright-endyear="currentyear"` to any HTML tag. Preferably an empty `span`. Change out "YYYY" to the year you want, but "currentyear" should be left as is. Example: `<span data-copyright-year="2004" data-copyright-endyear="currentyear"></span>` will spit out "2004-2025". If you change out "currentyear" to "currentyear2", it will display the last two digits of the current year. Example: "2020-25".
 
 
 ### Static Year Range
