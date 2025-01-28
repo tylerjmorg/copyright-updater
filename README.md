@@ -2,7 +2,7 @@
 By Tyler Morgan.
 
 ## Overview
-I've had a hard time finding a simple way to update copyright footers for my webpages. All of the solutions either collection data from the user and/or doesn't provide the copyright types I need. So I made my own that suits my needs. Maybe someone has created something similar, but it was not easy enough for me to find. So I'll contribute more code I guess!
+I've had a hard time finding a simple way to update copyright footers for my webpages. All of the solutions either collect data from the user and/or doesn't provide the copyright types I need. So I made my own that suits my needs. Maybe someone has created something similar, but it was not easy enough for me to find. So I'll contribute more code I guess!
 ## Goals
 * Create a lightweight JavaScript file.
 * Create both static and dynamic years and year ranges.
