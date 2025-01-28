@@ -38,6 +38,6 @@ You just want an unchanging year range? Cool, I got that too.
 Add both `data-copyright-year="YYYY"` and `data-copyright-endyear="YYYY"` to any HTML tag. Preferably an empty `span`. Change out "YYYY" to the year you want. Example: `<span data-copyright-year="1996" data-copyright-endyear="2013"></span>` will spit out "1996-2013".
 
 ## Little Tip
-The `data-copyright-year` and `data-copyright-endyear` are string values if you need to add lettering to the years. If for whatever reason you need BC or AD, you can totally do so.
+The `data-copyright-year` and `data-copyright-endyear` are string values if you need to add lettering to the years. If for whatever reason you need BC or AD, you can totally do so. Or you can switch the years to two digits. To each their own!
 ## Maintenance
 Just change the currentYear const on line 1 in the file to whatever year it currently is. This is done once a year, then all of your websites are updated!
